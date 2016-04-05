@@ -2,19 +2,167 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
-    <style>
-        .maps_vvs {
-            width:600px;
-            height:600px;
-        }
-    </style>
+    <title>Программирование кассового аппарата Меркурий</title>
+	<link rel="stylesheet" type="text/css" href="styles/new_styles.css">
 </head>
 <body>
 
 
-<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=ke24vbOaqjKjVDCBqymvQ_CO7KYExWkT&width=800&height=450&lang=ru_RU&sourceType=constructor"></script>
+	<h1>Программирование кассового аппарата Меркурий</h1>
 
 
+   <table class="table_1">
+		<tr>
+			<th></th>
+			<th>Заголовок чека</th>
+			<th>Кол-во <br> символов</th>
+		</tr>
+
+		<tr>
+			<th>
+				<label for="input_1">Строка №1</label>
+			</th>
+			<td>
+				<input type="text" placeholder="Строка 1" id="input_1" class="charText" name="1" maxlength="24">
+			</td>
+			<td>
+				<input type="text" placeholder="0" disabled class="charval">
+			</td>
+
+
+		</tr>
+
+	   <tr>
+		   <th>
+			   <label for="input_2">Строка №2</label>
+		   </th>
+		   <td>
+			   <input type="text" placeholder="Строка 2" id="input_2" class="charText" name="2" maxlength="24">
+		   </td>
+		   <td>
+			   <input type="text" placeholder="0" disabled class="charval">
+		   </td>
+
+	   </tr>
+
+	   <tr>
+		   <th>
+			   <label for="input_3">Строка №3</label>
+		   </th>
+		   <td>
+			   <input type="text" placeholder="Строка 3" id="input_3" class="charText" name="3" maxlength="24">
+		   </td>
+		   <td>
+			   <input type="text" placeholder="0" disabled class="charval">
+		   </td>
+
+	   </tr>
+
+	   <tr>
+		   <th>
+			   <label for="input_4">Строка №4</label>
+		   </th>
+		   <td>
+			   <input type="text" placeholder="Строка 4" id="input_4" class="charText" name="4" maxlength="24">
+		   </td>
+		   <td>
+			   <input type="text" placeholder="0" disabled class="charval">
+		   </td>
+
+	   </tr>
+
+	   <tr>
+		   <th>
+			   <label for="input_5">Строка №5</label>
+		   </th>
+		   <td>
+			   <input type="text" placeholder="Строка 5" id="input_5" class="charText" name="5" maxlength="24">
+		   </td>
+		   <td>
+			   <input type="text" placeholder="0" disabled class="charval">
+		   </td>
+
+	   </tr>
+
+	   <tr>
+		   <th>
+			   <label for="input_6">Строка №6</label>
+		   </th>
+		   <td>
+			   <input type="text" placeholder="Строка 6" id="input_6" class="charText" name="6" maxlength="24">
+		   </td>
+		   <td>
+			   <input type="text" placeholder="0" disabled class="charval">
+		   </td>
+
+	   </tr>
+
+	   <tr>
+		   <th>
+			   <label for="input_7">Строка №7</label>
+		   </th>
+		   <td>
+			   <input type="text" placeholder="Строка 7" id="input_7" class="charText" name="7" maxlength="24">
+		   </td>
+		   <td>
+			   <input type="text" placeholder="0" disabled class="charval">
+		   </td>
+
+	   </tr>
+
+   </table>
+
+
+
+
+	<table class="result_table">
+		<tr>
+			<th>Результат:</th>
+		</tr>
+		<tr>
+			<td>
+				<textarea disabled placeholder="" class="result" name="1r"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<textarea disabled placeholder="" class="result" name="2r"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<textarea disabled placeholder="" class="result" name="3r"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<textarea disabled placeholder="" class="result" name="4r"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<textarea disabled placeholder="" class="result" name="5r"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<textarea disabled placeholder="" class="result" name="6r"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<textarea disabled placeholder="" class="result" name="7r"></textarea>
+			</td>
+		</tr>
+
+	</table>
+
+  <script src="scripts/jsoninput.js"></script>
 </body>
 </html>

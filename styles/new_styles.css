@@ -1,0 +1,69 @@
+body {
+	text-align: center;
+	background: #F0F0F0;
+
+}
+.table_1 {
+	position: relative;
+	display: block;
+	float: left;
+	margin-left: 5%;
+	border-collapse:collapse;
+}
+.result_table {
+	position: relative;
+	display: block;
+	float: right;
+	margin-right: 5%;
+}
+.table_1 tr:first-child,.table_1 tr th:first-child,.result_table th {
+	background: linear-gradient(#C1C3C0,#fff);
+}
+
+.table_1 td,.table_1 th {
+	width:200px;
+	height:30px;
+}
+
+.result_table td,.result_table th {
+	width:200px;
+	height:70px;
+}
+.table_1 input{
+	position: relative;
+}
+
+.table_1 tr td:nth-child(1),.table_1 tr th:nth-child(1) {
+	width: 90px;
+}
+.table_1 tr td:nth-child(3),.table_1 tr th:nth-child(3){
+	width: 30px;
+}
+
+
+.table_1 tr td:nth-child(2),.table_1  tr th:nth-child(2),.result_table  tr td:nth-child(1),.result_table tr th:nth-child(1) {
+	width:400px;
+}
+
+tr td  input,tr th input,tr td textarea, tr th textarea {
+	width:100%;
+	height:100%;
+}
+::-webkit-input-placeholder {
+	text-align:center;
+}
+
+:-moz-placeholder {
+	text-align:center;
+}
+
+::-moz-placeholder {
+	text-align:center;
+}
+
+:-ms-input-placeholder {
+	text-align:center;
+}
+.charval {
+	text-align: center;
+}
