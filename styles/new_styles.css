@@ -78,12 +78,20 @@ tr:nth-child(2n) td input,tr:nth-child(2n) td textarea{
 }
 .merkury {
 	position: absolute;
-	bottom: 5%;
-	left: 5%;
+	display: block;
+	bottom: 0;
+	left: 35%;
 	width:300px;
 	height:300px;
 	background: url('../img/merkury180.png') no-repeat;
 	background-position: center;
 	border-radius: 100%;
+}
+ol {
+	display: block;
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+
 }
 
